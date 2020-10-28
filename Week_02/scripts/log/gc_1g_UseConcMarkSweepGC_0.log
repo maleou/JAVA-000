@@ -1,0 +1,26 @@
+Java HotSpot(TM) 64-Bit Server VM (25.271-b09) for bsd-amd64 JRE (1.8.0_271-b09), built on Sep 16 2020 16:54:38 by "java_re" with gcc 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5)
+Memory: 4k page, physical 16777216k(1421136k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:InitialHeapSize=1073741824 -XX:MaxHeapSize=1073741824 -XX:MaxNewSize=357916672 -XX:MaxTenuringThreshold=6 -XX:NewSize=357916672 -XX:OldPLABSize=16 -XX:OldSize=715825152 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+0.195: [GC (Allocation Failure)  279616K->89420K(1013632K), 0.0361670 secs]
+0.263: [GC (Allocation Failure)  369036K->168744K(1013632K), 0.0410765 secs]
+0.331: [GC (Allocation Failure)  448360K->251043K(1013632K), 0.0416494 secs]
+0.403: [GC (Allocation Failure)  530659K->329947K(1013632K), 0.0402763 secs]
+0.470: [GC (Allocation Failure)  609563K->408862K(1013632K), 0.0404607 secs]
+0.511: [GC (CMS Initial Mark)  415007K(1013632K), 0.0003322 secs]
+0.540: [GC (Allocation Failure)  688478K->487817K(1013632K), 0.0446759 secs]
+0.615: [GC (Allocation Failure)  767433K->565593K(1013632K), 0.0414083 secs]
+0.683: [GC (Allocation Failure)  845209K->648195K(1013632K), 0.0427388 secs]
+0.751: [GC (Allocation Failure)  927811K->731000K(1013632K), 0.0435024 secs]
+0.795: [GC (CMS Final Remark)  737146K(1013632K), 0.0010547 secs]
+0.823: [GC (Allocation Failure)  883087K->676602K(1013632K), 0.0134824 secs]
+0.836: [GC (CMS Initial Mark)  682488K(1013632K), 0.0003306 secs]
+0.839: [GC (CMS Final Remark)  699684K(1013632K), 0.0010973 secs]
+0.866: [GC (Allocation Failure)  630360K->434991K(1013632K), 0.0152140 secs]
+0.881: [GC (CMS Initial Mark)  440733K(1013632K), 0.0002527 secs]
+0.908: [GC (Allocation Failure)  714607K->505319K(1013632K), 0.0135340 secs]
+0.948: [GC (Allocation Failure)  784935K->589673K(1013632K), 0.0154637 secs]
+0.989: [GC (Allocation Failure)  869289K->673443K(1013632K), 0.0152361 secs]
+1.031: [Full GC (Allocation Failure)  953059K->363561K(1013632K), 0.0505949 secs]

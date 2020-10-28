@@ -1,0 +1,26 @@
+Java HotSpot(TM) 64-Bit Server VM (25.271-b09) for bsd-amd64 JRE (1.8.0_271-b09), built on Sep 16 2020 16:54:38 by "java_re" with gcc 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5)
+Memory: 4k page, physical 16777216k(958016k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:InitialHeapSize=536870912 -XX:MaxHeapSize=536870912 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseSerialGC 
+0.132: [GC (Allocation Failure)  139776K->48031K(506816K), 0.0234450 secs]
+0.173: [GC (Allocation Failure)  187807K->90709K(506816K), 0.0301822 secs]
+0.217: [GC (Allocation Failure)  230314K->139379K(506816K), 0.0265846 secs]
+0.260: [GC (Allocation Failure)  278557K->176252K(506816K), 0.0208701 secs]
+0.296: [GC (Allocation Failure)  316028K->219467K(506816K), 0.0236395 secs]
+0.336: [GC (Allocation Failure)  359243K->262955K(506816K), 0.0233470 secs]
+0.374: [GC (Allocation Failure)  402731K->310698K(506816K), 0.0251344 secs]
+0.413: [GC (Allocation Failure)  450474K->361423K(506816K), 0.0273130 secs]
+0.455: [Full GC (Allocation Failure)  501199K->283564K(506816K), 0.0380128 secs]
+0.513: [GC (Allocation Failure)  423238K->327546K(506816K), 0.0057433 secs]
+0.535: [Full GC (Allocation Failure)  467322K->317324K(506816K), 0.0387818 secs]
+0.593: [Full GC (Allocation Failure)  457100K->321052K(506816K), 0.0397700 secs]
+0.652: [Full GC (Allocation Failure)  460828K->306164K(506816K), 0.0430153 secs]
+0.715: [GC (Allocation Failure)  445940K->352374K(506816K), 0.0060059 secs]
+0.738: [Full GC (Allocation Failure)  492150K->342492K(506816K), 0.0342932 secs]
+0.792: [Full GC (Allocation Failure)  482268K->346757K(506816K), 0.0424921 secs]
+0.854: [Full GC (Allocation Failure)  486533K->350374K(506816K), 0.0438437 secs]
+0.921: [Full GC (Allocation Failure)  506572K->340376K(506816K), 0.0477528 secs]
+0.989: [Full GC (Allocation Failure)  480152K->361515K(506816K), 0.0312556 secs]
+1.041: [Full GC (Allocation Failure)  506665K->366017K(506816K), 0.0397239 secs]

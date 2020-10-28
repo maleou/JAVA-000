@@ -1,0 +1,15 @@
+Java HotSpot(TM) 64-Bit Server VM (25.271-b09) for bsd-amd64 JRE (1.8.0_271-b09), built on Sep 16 2020 16:54:38 by "java_re" with gcc 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5)
+Memory: 4k page, physical 16777216k(1607784k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:InitialHeapSize=2147483648 -XX:MaxHeapSize=2147483648 -XX:MaxNewSize=715829248 -XX:MaxTenuringThreshold=6 -XX:NewSize=715829248 -XX:OldPLABSize=16 -XX:OldSize=1431654400 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+0.291: [GC (Allocation Failure)  559232K->152118K(2027264K), 0.0694695 secs]
+0.421: [GC (Allocation Failure)  711350K->280935K(2027264K), 0.0671434 secs]
+0.542: [GC (Allocation Failure)  840167K->397698K(2027264K), 0.0626079 secs]
+0.657: [GC (Allocation Failure)  956930K->530398K(2027264K), 0.0677069 secs]
+0.774: [GC (Allocation Failure)  1089630K->645616K(2027264K), 0.0593903 secs]
+0.884: [GC (Allocation Failure)  1204848K->771964K(2027264K), 0.0644161 secs]
+0.949: [GC (CMS Initial Mark)  783914K(2027264K), 0.0003929 secs]
+1.000: [GC (Allocation Failure)  1331196K->899910K(2027264K), 0.0665194 secs]
+1.066: [GC (CMS Final Remark)  911324K(2027264K), 0.0012712 secs]

@@ -1,0 +1,27 @@
+Java HotSpot(TM) 64-Bit Server VM (25.271-b09) for bsd-amd64 JRE (1.8.0_271-b09), built on Sep 16 2020 16:54:38 by "java_re" with gcc 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5)
+Memory: 4k page, physical 16777216k(1084456k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:InitialHeapSize=536870912 -XX:MaxHeapSize=536870912 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseSerialGC 
+0.128: [GC (Allocation Failure)  139776K->43575K(506816K), 0.0216283 secs]
+0.166: [GC (Allocation Failure)  183351K->92515K(506816K), 0.0323690 secs]
+0.214: [GC (Allocation Failure)  232285K->134015K(506816K), 0.0219772 secs]
+0.250: [GC (Allocation Failure)  273791K->174951K(506816K), 0.0217461 secs]
+0.285: [GC (Allocation Failure)  314255K->226835K(506816K), 0.0270421 secs]
+0.328: [GC (Allocation Failure)  366611K->267577K(506816K), 0.0247095 secs]
+0.368: [GC (Allocation Failure)  407353K->310203K(506816K), 0.0229954 secs]
+0.405: [GC (Allocation Failure)  449979K->352178K(506816K), 0.0223915 secs]
+0.443: [Full GC (Allocation Failure)  491954K->268601K(506816K), 0.0346410 secs]
+0.493: [GC (Allocation Failure)  408377K->316674K(506816K), 0.0062147 secs]
+0.515: [GC (Allocation Failure)  456450K->361786K(506816K), 0.0114118 secs]
+0.541: [Full GC (Allocation Failure)  501562K->309270K(506816K), 0.0371761 secs]
+0.597: [Full GC (Allocation Failure)  449046K->318174K(506816K), 0.0377922 secs]
+0.652: [Full GC (Allocation Failure)  457950K->308403K(506816K), 0.0414811 secs]
+0.713: [GC (Allocation Failure)  448179K->357202K(506816K), 0.0062585 secs]
+0.735: [Full GC (Allocation Failure)  496826K->345732K(506816K), 0.0361025 secs]
+0.790: [Full GC (Allocation Failure)  485352K->342773K(506816K), 0.0390040 secs]
+0.849: [Full GC (Allocation Failure)  482532K->345451K(506816K), 0.0438221 secs]
+0.912: [Full GC (Allocation Failure)  485227K->333712K(506816K), 0.0454795 secs]
+0.977: [Full GC (Allocation Failure)  473374K->352378K(506816K), 0.0312638 secs]
+1.028: [Full GC (Allocation Failure)  506464K->357239K(506816K), 0.0405219 secs]

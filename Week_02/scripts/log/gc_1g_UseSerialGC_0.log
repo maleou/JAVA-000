@@ -1,0 +1,19 @@
+Java HotSpot(TM) 64-Bit Server VM (25.271-b09) for bsd-amd64 JRE (1.8.0_271-b09), built on Sep 16 2020 16:54:38 by "java_re" with gcc 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5)
+Memory: 4k page, physical 16777216k(1311012k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:InitialHeapSize=1073741824 -XX:MaxHeapSize=1073741824 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseSerialGC 
+0.186: [GC (Allocation Failure)  279616K->85154K(1013632K), 0.0413127 secs]
+0.260: [GC (Allocation Failure)  364770K->164129K(1013632K), 0.0548564 secs]
+0.346: [GC (Allocation Failure)  443745K->244642K(1013632K), 0.0428491 secs]
+0.419: [GC (Allocation Failure)  524258K->319009K(1013632K), 0.0396640 secs]
+0.490: [GC (Allocation Failure)  598625K->393025K(1013632K), 0.0394378 secs]
+0.559: [GC (Allocation Failure)  672641K->476196K(1013632K), 0.0432624 secs]
+0.632: [GC (Allocation Failure)  755812K->550994K(1013632K), 0.0395912 secs]
+0.701: [GC (Allocation Failure)  830610K->630808K(1013632K), 0.0423443 secs]
+0.772: [GC (Allocation Failure)  910424K->710751K(1013632K), 0.0435386 secs]
+0.844: [Full GC (Allocation Failure)  990187K->387163K(1013632K), 0.0641689 secs]
+0.939: [GC (Allocation Failure)  666779K->476691K(1013632K), 0.0124897 secs]
+0.982: [GC (Allocation Failure)  756307K->556069K(1013632K), 0.0155394 secs]
+1.029: [GC (Allocation Failure)  835617K->626404K(1013632K), 0.0136338 secs]

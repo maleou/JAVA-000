@@ -1,0 +1,29 @@
+Java HotSpot(TM) 64-Bit Server VM (25.271-b09) for bsd-amd64 JRE (1.8.0_271-b09), built on Sep 16 2020 16:54:38 by "java_re" with gcc 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5)
+Memory: 4k page, physical 16777216k(1611372k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:InitialHeapSize=2147483648 -XX:MaxHeapSize=2147483648 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseG1GC 
+0.137: [GC pause (G1 Evacuation Pause) (young) 130M->42M(2048M), 0.0126722 secs]
+0.165: [GC pause (G1 Evacuation Pause) (young) 150M->72M(2048M), 0.0121592 secs]
+0.197: [GC pause (G1 Evacuation Pause) (young) 186M->104M(2048M), 0.0131257 secs]
+0.223: [GC pause (G1 Evacuation Pause) (young) 216M->136M(2048M), 0.0135564 secs]
+0.249: [GC pause (G1 Evacuation Pause) (young) 244M->169M(2048M), 0.0139778 secs]
+0.294: [GC pause (G1 Evacuation Pause) (young) 330M->223M(2048M), 0.0200174 secs]
+0.335: [GC pause (G1 Evacuation Pause) (young) 388M->266M(2048M), 0.0151686 secs]
+0.408: [GC pause (G1 Evacuation Pause) (young) 532M->326M(2048M), 0.0264164 secs]
+0.459: [GC pause (G1 Evacuation Pause) (young) 555M->388M(2048M), 0.0218749 secs]
+0.539: [GC pause (G1 Evacuation Pause) (young) 724M->462M(2048M), 0.0325369 secs]
+0.600: [GC pause (G1 Evacuation Pause) (young) 743M->529M(2048M), 0.0249112 secs]
+0.716: [GC pause (G1 Evacuation Pause) (young) 988M->631M(2048M), 0.0441157 secs]
+0.795: [GC pause (G1 Evacuation Pause) (young) 977M->708M(2048M), 0.0308635 secs]
+0.881: [GC pause (G1 Evacuation Pause) (young) 1138M->780M(2048M), 0.0298740 secs]
+0.960: [GC pause (G1 Humongous Allocation) (young) (initial-mark) 1230M->861M(2048M), 0.0364664 secs]
+0.996: [GC concurrent-root-region-scan-start]
+0.996: [GC concurrent-root-region-scan-end, 0.0001135 secs]
+0.996: [GC concurrent-mark-start]
+1.001: [GC concurrent-mark-end, 0.0043963 secs]
+1.001: [GC remark, 0.0015321 secs]
+1.003: [GC cleanup 905M->695M(2048M), 0.0012418 secs]
+1.004: [GC concurrent-cleanup-start]
+1.004: [GC concurrent-cleanup-end, 0.0001167 secs]

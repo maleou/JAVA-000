@@ -1,0 +1,38 @@
+Java HotSpot(TM) 64-Bit Server VM (25.271-b09) for bsd-amd64 JRE (1.8.0_271-b09), built on Sep 16 2020 16:54:38 by "java_re" with gcc 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5)
+Memory: 4k page, physical 16777216k(1130004k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:InitialHeapSize=134217728 -XX:MaxHeapSize=134217728 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseSerialGC 
+0.077: [GC (Allocation Failure)  34819K->11507K(126720K), 0.0054077 secs]
+0.090: [GC (Allocation Failure)  45893K->21886K(126720K), 0.0066430 secs]
+0.102: [GC (Allocation Failure)  56829K->36183K(126720K), 0.0075368 secs]
+0.113: [GC (Allocation Failure)  70498K->46684K(126720K), 0.0057656 secs]
+0.124: [GC (Allocation Failure)  81505K->57558K(126720K), 0.0058588 secs]
+0.134: [GC (Allocation Failure)  92477K->67535K(126720K), 0.0056298 secs]
+0.143: [GC (Allocation Failure)  102426K->80077K(126720K), 0.0067536 secs]
+0.154: [Full GC (Allocation Failure)  114973K->86817K(126720K), 0.0122589 secs]
+0.170: [Full GC (Allocation Failure)  121585K->96211K(126720K), 0.0088659 secs]
+0.183: [Full GC (Allocation Failure)  126690K->103324K(126720K), 0.0099142 secs]
+0.197: [Full GC (Allocation Failure)  126000K->103273K(126720K), 0.0137694 secs]
+0.214: [Full GC (Allocation Failure)  126225K->110258K(126720K), 0.0033971 secs]
+0.220: [Full GC (Allocation Failure)  126517K->114990K(126720K), 0.0094509 secs]
+0.231: [Full GC (Allocation Failure)  126464K->118289K(126720K), 0.0101104 secs]
+0.242: [Full GC (Allocation Failure)  126033K->115158K(126720K), 0.0133501 secs]
+0.257: [Full GC (Allocation Failure)  125577K->117800K(126720K), 0.0015530 secs]
+0.259: [Full GC (Allocation Failure)  126500K->122711K(126720K), 0.0032682 secs]
+0.263: [Full GC (Allocation Failure)  126342K->124364K(126720K), 0.0013461 secs]
+0.264: [Full GC (Allocation Failure)  126191K->122769K(126720K), 0.0136138 secs]
+0.279: [Full GC (Allocation Failure)  126693K->124205K(126720K), 0.0016032 secs]
+0.281: [Full GC (Allocation Failure)  126709K->125186K(126720K), 0.0012158 secs]
+0.282: [Full GC (Allocation Failure)  126252K->125775K(126720K), 0.0011346 secs]
+0.283: [Full GC (Allocation Failure)  126504K->125887K(126720K), 0.0117483 secs]
+0.295: [Full GC (Allocation Failure)  126488K->126031K(126720K), 0.0014333 secs]
+0.297: [Full GC (Allocation Failure)  126355K->126319K(126720K), 0.0011697 secs]
+0.298: [Full GC (Allocation Failure)  126319K->126156K(126720K), 0.0114625 secs]
+0.310: [Full GC (Allocation Failure)  126639K->126199K(126720K), 0.0014161 secs]
+0.312: [Full GC (Allocation Failure)  126589K->126199K(126720K), 0.0011289 secs]
+0.313: [Full GC (Allocation Failure)  126685K->126073K(126720K), 0.0010736 secs]
+0.314: [Full GC (Allocation Failure)  126552K->126055K(126720K), 0.0010322 secs]
+0.315: [Full GC (Allocation Failure)  126341K->126341K(126720K), 0.0010397 secs]
+0.316: [Full GC (Allocation Failure)  126341K->126341K(126720K), 0.0010084 secs]

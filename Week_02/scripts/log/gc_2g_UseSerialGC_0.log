@@ -1,0 +1,12 @@
+Java HotSpot(TM) 64-Bit Server VM (25.271-b09) for bsd-amd64 JRE (1.8.0_271-b09), built on Sep 16 2020 16:54:38 by "java_re" with gcc 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5)
+Memory: 4k page, physical 16777216k(1414148k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:InitialHeapSize=2147483648 -XX:MaxHeapSize=2147483648 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseSerialGC 
+0.321: [GC (Allocation Failure)  559232K->149778K(2027264K), 0.0723758 secs]
+0.460: [GC (Allocation Failure)  709010K->282286K(2027264K), 0.0941499 secs]
+0.611: [GC (Allocation Failure)  841518K->402206K(2027264K), 0.0644536 secs]
+0.739: [GC (Allocation Failure)  961438K->524350K(2027264K), 0.0690915 secs]
+0.867: [GC (Allocation Failure)  1083582K->649847K(2027264K), 0.0696268 secs]
+0.993: [GC (Allocation Failure)  1209079K->783601K(2027264K), 0.0747449 secs]

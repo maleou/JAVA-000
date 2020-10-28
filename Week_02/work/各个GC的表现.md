@@ -40,10 +40,65 @@ FullGC：Young 区占用比例清理至 0，清理部分 Old 区对象
 
 --- 
 
-# 在不同GC下，压测的吞吐量横向比较and纵向比较 TODO
+# 在不同GC下，压测的吞吐量横向比较 & 纵向比较
+测试环境为 MacOS 10.15 | Jdk8 | 16核
 
+测试脚本见： [GCAnalysis](../scripts/GCAnalysis.py)
 
+测试样本取10次平均值
 
-# 横向对比
-在堆越大的情况下，Serial < Parallel < CMS < G1
-在堆越小的情况下，Serial = Parallel < CMS < G1
+测试命令如 ： `java -Xmx8g -Xms8g -XX:+UseG1GC -Xloggc:log/gc_8g_UseG1GC_9.log GCLogAnalysis`
+
+<table>
+    <tr>
+        <td>GC / Heap（时间单位s）</td>
+        <td>128M</td>
+        <td>512M</td>
+        <td>1G</td>
+        <td>2G</td>
+        <td>4G</td>
+        <td>8G</td>
+    </tr>
+    <tr>
+        <td>Serial</td>
+        <td>OOM</td>
+        <td>0.61949208</td>
+        <td>0.4716358</td>
+        <td>0.441421833</td>
+        <td>0.266333133</td>
+        <td>0.159115533
+</td>
+    </tr>
+    <tr>
+        <td>Parallel</td>
+        <td>OOM</td>
+        <td>0.6325983</td>
+        <td>0.5024475</td>
+        <td>0.4136208</td>
+        <td>0.3052983</td>
+        <td>0.1485401</td>
+    </tr>
+    <tr>
+        <td>CMS</td>
+        <td>OOM</td>
+        <td>0.6064802</td>
+        <td>0.4893572</td>
+        <td>0.4590256</td>
+        <td>0.3667725</td>
+        <td>0.3671848</td>
+    </tr>
+    <tr>
+        <td>G1</td>
+        <td>OOM</td>
+        <td>0.4693535</td>
+        <td>0.2885263</td>
+        <td>0.3440758</td>
+        <td>0.4387819</td>
+        <td>0.4878826</td>
+    </tr>    
+</table>
+
+```
+在 128M 堆内存下，四种 GC 均 OOM 或者出现持续 FullGC
+SerialGC的GC时间持续走低，相比G1持续升高的现象。是否存在何处测试错误？请老师指正
+```

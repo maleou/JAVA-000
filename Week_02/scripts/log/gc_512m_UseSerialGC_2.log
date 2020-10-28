@@ -1,0 +1,26 @@
+Java HotSpot(TM) 64-Bit Server VM (25.271-b09) for bsd-amd64 JRE (1.8.0_271-b09), built on Sep 16 2020 16:54:38 by "java_re" with gcc 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.11.45.5)
+Memory: 4k page, physical 16777216k(1073680k free)
+
+/proc/meminfo:
+
+CommandLine flags: -XX:InitialHeapSize=536870912 -XX:MaxHeapSize=536870912 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseSerialGC 
+0.125: [GC (Allocation Failure)  139776K->46312K(506816K), 0.0236245 secs]
+0.168: [GC (Allocation Failure)  186088K->89244K(506816K), 0.0301261 secs]
+0.214: [GC (Allocation Failure)  229020K->130068K(506816K), 0.0219753 secs]
+0.251: [GC (Allocation Failure)  269844K->178210K(506816K), 0.0254150 secs]
+0.292: [GC (Allocation Failure)  317750K->226382K(506816K), 0.0250759 secs]
+0.334: [GC (Allocation Failure)  366158K->264392K(506816K), 0.0198517 secs]
+0.368: [GC (Allocation Failure)  403857K->308973K(506816K), 0.0231771 secs]
+0.405: [GC (Allocation Failure)  448749K->362219K(506816K), 0.0275587 secs]
+0.447: [Full GC (Allocation Failure)  501995K->285281K(506816K), 0.0374559 secs]
+0.501: [GC (Allocation Failure)  425053K->331464K(506816K), 0.0058462 secs]
+0.523: [Full GC (Allocation Failure)  471240K->318217K(506816K), 0.0392912 secs]
+0.581: [Full GC (Allocation Failure)  457993K->331515K(506816K), 0.0405242 secs]
+0.641: [Full GC (Allocation Failure)  470955K->317782K(506816K), 0.0447510 secs]
+0.706: [Full GC (Allocation Failure)  457558K->350417K(506816K), 0.0280571 secs]
+0.754: [Full GC (Allocation Failure)  506737K->358549K(506816K), 0.0388142 secs]
+0.812: [Full GC (Allocation Failure)  506741K->361292K(506816K), 0.0418971 secs]
+0.875: [Full GC (Allocation Failure)  506751K->352038K(506816K), 0.0477528 secs]
+0.945: [Full GC (Allocation Failure)  506805K->371525K(506816K), 0.0326845 secs]
+0.997: [Full GC (Allocation Failure)  506347K->368127K(506816K), 0.0402494 secs]
+1.056: [Full GC (Allocation Failure)  506757K->364828K(506816K), 0.0421445 secs]
